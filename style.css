@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #e0e0e0;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 3px solid #a259ff;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+.subtitle {
+  font-size: 1.1em;
+  color: #cccccc;
+}
+
+h2 {
+  border-bottom: 2px solid #a259ff;
+  padding-bottom: 5px;
+  margin-top: 40px;
+  color: #a259ff;
+}
+
+.quality {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+.contacts ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.contacts li {
+  margin: 8px 0;
+  font-size: 1em;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #a259ff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #913dff;
+}
+
+/* Адаптивность */
+@media (max-width: 600px) {
+  .container {
+    padding: 15px;
+  }
+
+  .avatar {
+    width: 120px;
+    height: 120px;
+  }
+}
